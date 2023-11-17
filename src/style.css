@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+.header-image {
+  padding-top: 50px;
+  display: block;
+}
