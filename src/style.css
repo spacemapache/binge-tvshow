@@ -1,17 +1,45 @@
-h1 {
+.container {
+  max-width: 1000px;
   text-align: center;
+  background: #f8da5b;
+}
+
+body {
+  background: #247291;
+}
+
+h1 {
+  padding: 20px;
+  margin-top: 40px;
+  border: 1px solid #000000;
+  border-radius: 10px;
 }
 
 h2 {
-  text-align: center;
   padding-top: 20px;
+  font-size: 25px;
 }
 
-p {
-  text-align: center;
-}
-
-.header-image {
-  padding-top: 50px;
+.b99-cast {
   display: block;
+  margin: 0 auto;
+  width: 950px;
+  border-radius: 10px;
+}
+
+.about-b99 {
+  font-size: 15px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.favourite-characters {
+  font-size: 15px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 20px;
 }
