@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #f7f7f7;
+  background: #247291;
 }
 
 h1 {
@@ -12,7 +12,9 @@ h1 {
   margin-top: 40px;
   border: 1px solid #000000;
   border-radius: 10px;
-  background: #fde994;
+  background: #f5f9ee;
+  font-family: "Rubik Mono One", monospace;
+  text-shadow: 2px 3px 0 #ffdd00, 2px 4px 0 #5c5757, 2px 5px 0 #247291;
 }
 
 h2 {
@@ -24,21 +26,19 @@ h2 {
   display: block;
   margin: 0 auto;
   width: 950px;
+  border: 1px solid #000000;
   border-radius: 10px;
 }
 
 .about-b99 {
   font-size: 15px;
+  font-family: "Roboto", sans-serif;
   border: 1px solid #000000;
   border-radius: 10px;
   margin-top: 20px;
-  background: #fde994;
-}
-
-.favourite-characters {
-  font-size: 15px;
-  border: 1px solid #000000;
-  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  background: #f5f9ee;
 }
 
 button {
@@ -54,4 +54,12 @@ button {
   border: none;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
+  background: #f8da5b;
+  color: #000000;
+}
+
+.fandom-button:hover {
+  background: #005689;
+  color: #ffffff;
+  cursor: pointer;
 }
