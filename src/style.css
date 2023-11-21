@@ -1,11 +1,10 @@
 .container {
   max-width: 1000px;
   text-align: center;
-  background: #f8da5b;
 }
 
 body {
-  background: #247291;
+  background: #f7f7f7;
 }
 
 h1 {
@@ -13,6 +12,7 @@ h1 {
   margin-top: 40px;
   border: 1px solid #000000;
   border-radius: 10px;
+  background: #fde994;
 }
 
 h2 {
@@ -32,6 +32,7 @@ h2 {
   border: 1px solid #000000;
   border-radius: 10px;
   margin-top: 20px;
+  background: #fde994;
 }
 
 .favourite-characters {
@@ -42,4 +43,15 @@ h2 {
 
 button {
   margin-top: 20px;
+}
+
+.fandom-button {
+  display: block;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
 }
