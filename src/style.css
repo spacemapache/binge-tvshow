@@ -5,6 +5,7 @@
 
 body {
   background: #247291;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -63,4 +64,8 @@ button {
   background: #005689;
   color: #ffffff;
   cursor: pointer;
+}
+
+.footer {
+  color: #ffffff;
 }
