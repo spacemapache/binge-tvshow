@@ -14,7 +14,86 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="src/style.css" />
+   
+    <style>
+      .container {
+  max-width: 1000px;
+  text-align: center;
+}
+
+body {
+  background: #247291;
+  padding-bottom: 20px;
+}
+
+h1 {
+  padding: 20px;
+  margin-top: 40px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background: #f5f9ee;
+  font-family: "Rubik Mono One", monospace;
+  text-shadow: 2px 3px 0 #ffdd00, 2px 4px 0 #5c5757, 2px 5px 0 #247291;
+}
+
+h2 {
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.b99-cast {
+  display: block;
+  margin: 0 auto;
+  width: 950px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.about-b99 {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  background: #f5f9ee;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.fandom-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  background: #f8da5b;
+  color: #000000;
+}
+
+.fandom-button:hover {
+  background: #005689;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer {
+  color: #ffffff;
+}
+
+.linkedin {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+    </style>
 
     <title>Brooklyn 99</title>
   </head>
@@ -121,6 +200,17 @@
       target="_blank"
       class="linkedin">Isabelle Ang</a></small>
     </div>
-    <script src="src/index.js"></script>
+    <script>
+      function joinFandom() {
+  let name = prompt("What is your name?");
+  let email = prompt("What is your email?");
+
+  alert(`Hi ${name}! Welcome to the Brooklyn Nine-Nine Fandom!🚨💙`);
+}
+
+let joinFandomButton = document.querySelector("#join-fandom");
+joinFandomButton.addEventListener("click", joinFandom);
+
+    </script>
   </body>
 </html>
