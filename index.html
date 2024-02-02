@@ -16,7 +16,7 @@
     />
    
     <style>
-      .container {
+  .container {
   max-width: 1000px;
   text-align: center;
 }
@@ -93,6 +93,13 @@ button {
   text-decoration: none;
 }
 
+@media (max-width: 1000px) {
+  .img-fluid {
+    display: flex;
+    justify-content: center;
+  }
+}
+
     </style>
 
     <title>Brooklyn 99</title>
@@ -100,8 +107,10 @@ button {
   <body>
     <div class="container">
       <h1>Brooklyn Nine-Nine</h1>
-      <img src="src/b99header.jpeg" alt="B99-cast-image" class="b99-cast">
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/338/original/b99header.jpeg?1706827612" alt="B99-cast-image" class="img-fluid">
 
+      <div class="row">
+      <div class="col-12">
       <div class="about-b99">
         <h2>About Brooklyn Nine-Nine</h2>
         <p>
@@ -145,11 +154,11 @@ button {
       <h2>Favourite characters</h2>
       <div class="container text-center">
         <div class="row">
-          <div class="col">
+          <div class="col-md-4">
             <div class="card" style="width: 18rem">
               <img
-                src="src/rosa-diaz.jpeg"
-                class="card-img-top"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/341/original/rosa-diaz.jpeg?1706827649"
+                class="img-fluid"
                 alt="rosa-diaz"
               />
               <div class="card-body">
@@ -160,11 +169,11 @@ button {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-4">
             <div class="card" style="width: 18rem">
               <img
-                src="src/captain-holt.jpeg"
-                class="card-img-top"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/339/original/captain-holt.jpeg?1706827618"
+                class="img-fluid"
                 alt="captain-holt"
               />
               <div class="card-body">
@@ -173,11 +182,11 @@ button {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-4">
             <div class="card" style="width: 18rem">
               <img
-                src="src/jake-peralta.jpg"
-                class="card-img-top"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/340/original/jake-peralta.jpg?1706827638"
+                class="img-fluid"
                 alt="jake-peralta"
               />
               <div class="card-body">
@@ -188,6 +197,8 @@ button {
           </div>  
         </div>     
           </div>
+        </div>
+        </div>
 
           <button 
           class="fandom-button" 
